@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+    background-color: #101826;
+
+}
+
+.text {
+    color: whitesmoke;
+
+    font-size: 20px;
+
+
+
+}
+
+.name {
+    color: white;
+    align-items: center;
+    text-align: center;
+
+
+
+
+}
+
+.image {
+    background-image: url(../../public/analitics.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    flex: auto;
+}
+
+.title {
+    color: white;
+
+
+
+}
+
+.Typewriter {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.pres {
+    color: white;
+    text-align: center;
+}
+
+.line {
+    background-color: #185a94;
+}
+
+#title {
+    color: white;
+}
+
+.abt {
+    background-color: #101826;
+    color: whitesmoke;
+    background-size: cover;
+
+
+}
+
+.box {
+    color: white;
+}
+
+.border {
+
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-top: 1px;
+
+    box-shadow: 12px 5px black;
+
+
+
+
+}
+
+.border:hover {
+
+    border-radius: 5px;
+    box-shadow: 7px 10px 25px 1px #c5e6f0;
+    transition: all 0.9s linear;
+
+
+
+}
+
+.bit {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+
+.view{
+    background-color: #101826;
+    box-shadow: 1px 1px white;
+    transition: all 0.9s linear;
+
+}
+.view:hover{
+    color: steelblue;
+    font-size: 100px;   
+    transition: 0.9s linear; 
+    background-image: url(../../public/Arduino_Logo_Registered.svg.png);
+
+    
+}
+
+
+
+
+/*Code for stack overflow for put the responsive on the application*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+    /* your mobile css, change this as you please */
+    #omos {
+        background-color: #f7f7f7;
+        height: 80vh;
+        clear: both;
+        text-align: center;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    /* your desktop css */
+    #omos {
+        background-color: #f7f7f7;
+        height: 80vh;
+        clear: both;
+        text-align: center;
+    }
+}
