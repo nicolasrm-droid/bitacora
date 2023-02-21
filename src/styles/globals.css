@@ -139,6 +139,16 @@
     margin-right: auto;
     width: 30%;
 }
+#imagen6 {
+    position: static;
+    margin-left: 100px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
 #video{
     margin-top: 5px;
     height: auto;
@@ -147,7 +157,31 @@
     margin-right: auto;
     width: 500px; 
     max-width: 100%;
-    
+  
+
+}
+
+#arduino {
+    position: static;
+    margin-left: 100px; 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+
+#videocel {
+    margin-top: 5px;
+    height: auto;
+    display: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+    max-width: 200%;
+  
 
 }
 

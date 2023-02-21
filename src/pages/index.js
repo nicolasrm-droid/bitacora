@@ -4,7 +4,10 @@ import Navbar from "../../components/Navbar"
 import Hero from "../../components/Hero"
 import About from 'components/About'
 import Bitacora from 'components/Bitacora'
+import Bitacora2 from 'components/Bitacora2'
+import Bitacora3 from 'components/Bitacora3'
 import Titulo from 'components/Titulo'
+import Arduino from 'components/Arduino'
 
 
 
@@ -25,7 +28,10 @@ export default function Home() {
         <Hero />
         <About />
         <Titulo/>
+        <Arduino/>
         <Bitacora />
+        <Bitacora2/>
+        <Bitacora3/>
 
       </main>
     </div>
