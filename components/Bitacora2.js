@@ -7,7 +7,7 @@ const Bitacora2 = () => {
             <Heading title="Bitacora - Sesion2" />
                        
             <div >
-                <img id="imagen6" src="servo.jpeg" alt="Arduino 1"></img>
+                <img id="imagen6" src="Servo.jpeg" alt="Arduino 1"></img>
             </div>
             <div className='py-4 px-2 text-center '>
                 <p>En esta sesion se hizo realizo un ejercico de conectar un servomotor al arduino y a la protoboard</p>
